@@ -1,0 +1,35 @@
+//Maximum of two numbers//
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("Enter first number: ");
+    scanf("%d",&a);
+    printf("Enter second number: ");
+    scanf("%d",&b);
+    if(a > b)
+    {
+        printf("%d is greater than %d", a,b);
+    }
+    else
+    {
+        printf("%d is less than %d", a,b);   
+    }
+    return 0;
+}
+
+
+
+
+OUTPUT:
+(1)
+Enter first number: 55
+Enter second number: 22
+55 is greater than 22
+
+(2)
+Enter first number: 98
+Enter second number: 99
+98 is less than 99
