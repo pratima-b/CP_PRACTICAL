@@ -1,0 +1,26 @@
+//Program to check whether the age of the employee is between 20-60//
+
+#include <stdio.h>
+
+int main()
+{
+    int age;
+    printf("Enter the age: ");
+    scanf("%d", &a);
+    
+    if(age>=20 && age<=60)
+    {
+        printf("The age is in the range of 20-60\n");
+    }
+    else 
+    {
+        printf("The age is not in range\n");
+    }
+    return 0;
+}
+
+
+
+OUTPUT:
+Enter the age: 60
+The age is in the range of 20-60
