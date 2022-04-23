@@ -1,0 +1,25 @@
+//Program to print the difference of two numbers//
+#include <stdio.h>
+
+int main()
+{
+
+    float a, b, d;
+    printf("Enter the first number: ");
+    scanf("%f", &a);
+    printf("Enter the second number: ");
+    scanf("%f", &b);
+    d = a - b;
+    printf("The differnce is: %f", d);
+   
+    
+    return 0;
+}
+
+
+
+
+OUTPUT:
+Enter the first number: 5.8
+Enter the second number: 4.6
+The differnce is: 1.200000
