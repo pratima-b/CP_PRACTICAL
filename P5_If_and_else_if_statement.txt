@@ -1,0 +1,50 @@
+//If and else if statement//
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b, sum;
+    printf("Enter the values of a and b \n");
+    scanf("%d%d", &a,&b);
+    sum = a + b;
+    printf("Sum of a and b is %d\n", sum);
+    if(sum > 20)
+    {
+        printf("Sum is greater than 20 \n");
+    }
+    else if(sum > 10)
+    {
+        printf("Sum is greater than 10 and less than 20 \n");
+    }
+    else
+    {
+        printf("Sum is less than 10 \n");
+    }
+    return 0;
+}
+
+
+
+
+OUTPUT:
+(1)
+Enter the values of a and b 
+10
+50
+Sum of a and b is 60
+Sum is greater than 20 
+
+(2)
+Enter the values of a and b 
+5 
+6
+Sum of a and b is 11
+Sum is greater than 10 and less than 20 
+
+(3)
+Enter the values of a and b 
+1
+2
+Sum of a and b is 3
+Sum is less than 10 
