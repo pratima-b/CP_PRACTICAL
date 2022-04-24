@@ -1,0 +1,51 @@
+//3 Students marks comparison//
+
+#include <stdio.h>
+
+int main()
+{
+    float s1, s2, s3;
+    printf("Enter marks of students: \n");
+    scanf("%f %f %f", &s1, &s2, &s3);
+    
+    if(s1 > s2 && s1 > s3)
+    {
+        printf("Student no. 1 has scored highest marks\n");
+    }
+    else if(s2 > s3 && s2 > s1)
+    {
+        printf("Student no. 2 has scored highest marks\n");
+    }
+    else if(s3 > s1 && s3 > s2)
+    {
+        printf("Student no. 3 has scored highest marks\n");
+    }
+    else if(s1 == s2 && s1 > s3)
+    {
+        printf("Student no. 1 & 2 have scored highest and equal marks\n");
+    }
+    else if(s1 == s3 && s1 > s2)
+    {
+        printf("Student no. 1 & 3 have scored highest and equal marks\n");
+    }
+    else if(s2 == s3 && s2 > s1)
+    {
+        printf("Student no. 2 & 3 have scored highest and equal marks\n");
+    }
+    else if(s1 == s2 && s2 == s3)
+    {
+        printf("All 3 students have scored equal marks\n");
+    }
+    
+    return 0;
+}
+
+
+
+
+OUTPUT:
+Enter marks of students: 
+1
+6
+6
+Student no. 2 & 3 have scored highest and equal marks
