@@ -28,23 +28,9 @@ int main()
 
 
 OUTPUT:
-(1)
 Enter the values of a and b 
 10
 50
 Sum of a and b is 60
 Sum is greater than 20 
 
-(2)
-Enter the values of a and b 
-5 
-6
-Sum of a and b is 11
-Sum is greater than 10 and less than 20 
-
-(3)
-Enter the values of a and b 
-1
-2
-Sum of a and b is 3
-Sum is less than 10 
