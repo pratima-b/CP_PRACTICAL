@@ -1,5 +1,5 @@
 
-//Introducton to functions//
+//Introduction to functions//
 
 #include <stdio.h>
 void add()
