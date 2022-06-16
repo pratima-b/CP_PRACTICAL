@@ -6,7 +6,7 @@
 int main()
 {
     char strname[30];
-    printf("Enter the srting\n");
+    printf("Enter the string\n");
     scanf("%[^\n]s", strname);
     printf("The string is %s\n", strname);
 
@@ -17,6 +17,6 @@ int main()
 
 
 OUTPUT:
-Enter the srting
+Enter the string
 Talk To A Teacher 
 The string is Talk To A Teacher
