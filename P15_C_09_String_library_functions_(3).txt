@@ -1,4 +1,4 @@
-//Comaprison of two strings//
+//Comparison of two strings//
 
 #include <stdio.h>
 #include<string.h>
