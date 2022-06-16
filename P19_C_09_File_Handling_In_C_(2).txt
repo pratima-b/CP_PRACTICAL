@@ -1,3 +1,5 @@
+/*Program to understand file handling*/
+
 #include<stdio.h>
 
 int main()
